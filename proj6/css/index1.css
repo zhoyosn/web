@@ -1,0 +1,101 @@
+body {
+    background-color: #99bd90
+}
+
+.f-body {
+    background-color: #cdd3f5;
+    height: 560px;
+    width: 760px;
+    padding: 20px;
+    border: 1px solid;
+    margin: auto
+}
+
+.f-head {
+    background-color: #99bd90;
+    height: 80px;
+    width: 720px;
+    padding: 20px;
+    border: 1px solid;
+    display: flex
+}
+
+.head-left {
+    background-color: #cdd3f5;
+    height: 80px;
+    width: 80px;
+    border: 1px solid;
+    margin: 0px 20px 0px 0px
+}
+
+.head-right {
+    background-color: #cdd3f5;
+    height: 80px;
+    width: 80px;
+    border: 1px solid;
+    margin-left: 230px
+}
+
+.f-main {
+    background-color: #99bd90;
+    height: 376px;
+    width: 720px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid;
+    justify-content: space-between;
+    display: flex
+}
+
+.f-main .left .head .big {
+    background-color: #cdd3f5;
+    height: 300px;
+    width: 200px;
+    border: 1px solid
+}
+
+.bottom1 .small {
+    background-color: #cdd3f5;
+    height: 50px;
+    width: 50px;
+    border: 1px solid
+}
+
+.f-main .left {
+    background-color: #99bd90;
+    height: 370px;
+    width: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between
+}
+
+.f-main .left .head {
+    background-color: #99bd90;
+    height: 300px;
+    width: 200px
+}
+
+.bottom1 {
+    background-color: #99bd90;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between
+}
+
+.f-main .right {
+    background-color: #99bd90;
+    height: 370px;
+    width: 480px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between
+}
+
+.f-main .right .box {
+    background-color: #cdd3f5;
+    height: 40px;
+    width: 480px;
+    border: 1px solid
+}

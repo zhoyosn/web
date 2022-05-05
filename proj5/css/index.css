@@ -1,0 +1,453 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2021-04-03 18:54:44
+ * @version $Id$
+ */
+
+body {
+    align-items: center;
+    height: 1240px;
+    width: 1500px;
+    margin: auto;
+}
+
+.m-example img {
+    background: no-repeat url('ex05.png');
+	background-size: 100%;
+	opacity: 0.3; 
+	position: absolute; 
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m-photo img{
+    max-width: 100%;
+    height: 320px;
+    vertical-align: middle;
+    margin: 50px 0px 0px 125px;
+    float: left;
+}
+
+.main .textarea{
+    float: right;
+    width: 32%;
+    margin: 0px 350px 0 0;
+    text-align: left;
+    font-weight: bold;
+    font-family: "NotoSansCJKjp regular", "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+.main .midheading{
+    font-size: 22px;
+    display: block;
+    width: 200px; 
+    height: 33px;
+    letter-spacing: -0.5px;
+    margin: 64px 0px 0px 27px;
+}
+
+.main .hr{
+    width: 50px;
+    height: 4px;
+    margin: 17px 0px 0px 27px;
+    background-color: #0068b1;
+
+}
+
+.text1{
+    width: 463px;
+    margin: 34px 0px 0px 27px;
+    line-height: 31.5px;
+    letter-spacing: 0.7px;
+}
+
+.button{
+    display: block;
+    width: 180px;
+    height: 31px;
+    margin: 31px 0px 0px 28px;
+    border-radius: 5px;
+    padding: 10px 0 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 0.8px;
+    word-spacing: 74px;
+    background-color: #0068b1;
+}
+
+.blog {
+    display: ;
+    width: 100%;
+    height: 32%;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    font-family: "NotoSansCJKjp regular", "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+
+}
+
+.big-blog {
+    margin: 25px 0px 0px 126px;
+    height: 28%;
+    border-bottom: 2px solid #dcdcdc;
+}
+
+.title2 {
+    float: left;
+    width: 280px;
+    height: 40px;
+    margin: 40px 0px 0px 0px;
+}
+
+.title2 .big {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #0068b1;
+}
+
+.title2 .midline {
+    float: left;
+    margin: 14px 0px 0px 18px;
+    width: 4px;
+    height: 18px;
+    background-color: #0068b1;
+}
+
+.title2 .small {
+    float: left;
+    margin: 7px 0px 0px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1.2px;
+    color: #2e2828;
+}
+
+.button2{
+    width: 95px;
+    height: 25px;
+    float: right;
+    margin: 45px 373px 30px 1.5px;
+    padding: 9px 16px 0px 41px;
+    background-color: #0068b1;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    word-spacing: 10px;
+}
+
+.mulu {
+    height: 70%;
+    text-align: left;
+}
+
+.mulu .first {
+    height: 34%;
+    margin-left: 125px;
+    border-bottom:2px dotted #dcdcdc;
+}
+
+.mulu .first .time {
+    float: left;
+    width: 85px;
+    margin: 42px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #2e2828;
+    letter-spacing: px;
+}
+
+.mulu .first .tubiao {
+    float: left;
+    width: 110px;
+    height: 22px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0 0 26px;
+    border-radius: 14px;
+    padding-top: 4px;
+    background-color: #009ee2;
+    color: #ffffff;
+}
+
+.mulu .first .text {
+    float: left; 
+    width: 450px;
+    height: 20px;
+    margin:41px 0 0 21px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-decoration: underline;
+}
+
+.mulu .second {
+    height: 31%;
+    margin-left: 125px;
+    border-bottom:2px dotted #dcdcdc;
+}
+
+.mulu .second .time {
+    float: left;
+    width: 85px;
+    margin: 33px 0 0px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2e2828;
+    letter-spacing: -0.5px;
+}
+
+.mulu .second .tubiao {
+    float: left;
+    width: 112px;
+    height: 22px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 0 26px;
+    border-radius: 14px;
+    padding-top: 4px;
+    background-color: #5aad73;
+    color: #ffffff;
+}
+
+.mulu .second .text {
+    float: left; 
+    width: 450px;
+    height: 20px;
+    margin: 33px 0 0 19px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-decoration: underline;
+}
+
+.mulu .third {
+    height: 31%;
+    margin-left: 125px;
+    border-bottom:2px dotted #dcdcdc;
+}
+
+.mulu .third .time {
+    float: left;
+    width: 85px;
+    height: 20px;
+    margin: 33px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2e2828;
+    letter-spacing: -0.8px;
+}
+
+.mulu .third .tubiao {
+    float: left;
+    width: 112px;
+    height: 21px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 0 26px;
+    border-radius: 14px;
+    padding-top: 4px;
+    background-color: #5aad73;
+    color: #fff;
+}
+
+.mulu .third .text {
+    display: inline-block;
+    float:left; 
+    width: 450px;
+    height: 20px;
+    margin:33px 0 0 18px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-decoration: underline;
+}
+
+.cont {
+    background: url(../img/ph02.jpg);
+    width: 100%;
+    height: 34%;
+    text-align: left;
+    font-family: "NotoSansCJKjp regular", "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+.phone {
+    width: 42%;
+    height: 100%;
+    float:left;
+}
+
+.title3 {
+    margin: 15px 0 20px 51px;
+    width: 575px;
+    height: 33px;
+}
+
+.title3 .line{
+    float: left;
+    width: 6px;
+    height: 33px;
+    margin: -2px 0px 0px 0px;
+    background-color: #004897;
+}
+
+.title3 .dianhua{
+    float: left;
+    margin: -5px 0px 0px 12px;
+    font-size: 21px;
+    letter-spacing: 1.8px;
+    font-weight: bold;
+    color: #004897;
+}
+
+.cen {
+    width: 537px;
+    height: 315px;
+    margin: -2px 0px 0px 50px;
+    border:2px solid #e2e2e2;
+    text-align: center;
+/*    color: #313131;
+*/    background-color: #ffffff;
+}
+
+.cen .text {
+    width: 428px;
+    height: 187px;
+    margin: 0px 0px 0px 55px;
+    border-bottom: 2px solid  #dcdcdc;
+}
+
+.cen .text .title{
+    display: block;
+    width: 211px;
+    height: 33px;
+    margin: 33px 0 0 108px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.cen .text .number {
+    display: block;
+    width: 330px;
+    height: 50px;
+    margin: 2px 0 23px 49.5px;
+    font-size: 44px;
+    font-weight: bold;
+    color: #0068b1;
+    letter-spacing: 1.3px;
+}
+
+.cen .text .way {
+    display: block;
+    width: 290px;
+    height: 50px;
+    margin: 30px 0px 0px 69px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    line-height: 27.5px;
+}
+
+.cen .time {
+    display: block;
+    width: 288px;
+    height: 30px;
+    margin: 21px 0 0 124px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0068b1;
+    letter-spacing: 2.5px;
+    word-spacing: -0.5px;
+}
+
+.email {
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+
+.email .title4 {
+    margin: 11px 0px 0px 32px;
+    width: 575px;
+    height: 33px;
+}
+
+.email .title4 .line{
+    float: left;
+    margin-top: 2px;
+    width: 7px;
+    height: 32px;
+    background-color: #004897;
+}
+
+.email .title4 .web{
+    float: left;
+    margin: -1px 0px 0px 10px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #004897;
+    letter-spacing: 1.5px;
+}
+
+.email .main {
+    width: 535px;
+    height: 317px;
+    margin: 20px 0 0 32px;
+    border:2px solid #e2e2e2;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.email .main .button {
+    width: 408px;
+    height: 60px;
+    margin: -80px 0px 25px 53px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px 1px #02395f;
+    text-align: left;
+    background-color: #0068b1;
+}
+
+.email .main .button img {
+    float: left;
+    width: 27px;
+    height: 19px;
+    margin: 17px 0 0 41px;
+}
+
+.email .main .button .emtext {
+    display: block;
+    width: 330px;
+    height: 25px;
+    margin: 9px 0px 0px 78px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+    word-spacing: 28px;
+}
+
+.email .main .textarea2{
+    width: 300px;
+    height: 80px;
+    padding-top: 90px;
+    padding-left: -200px;
+
+}
+.email .main .textarea2 span {
+    width: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    margin: 0px 0px 0px -500px;
+}

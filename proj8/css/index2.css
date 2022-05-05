@@ -1,0 +1,50 @@
+body{
+  padding: 50px;
+}
+.m-title {
+display: flex;
+width: 180px;
+}
+.m-sbox1 {
+height: 30px;
+width: 60px;
+border: 1px solid #333;
+border-bottom: none;
+}
+.m-sbox1.focus {
+background: #999;
+}
+.m-sbox2 {
+height: 30px;
+width: 60px;
+border: 1px solid #333;
+border-bottom: none;
+border-left: none;
+}
+.m-sbox2.focus {
+background: #999;
+}
+.m-sbox3 {
+height: 30px;
+width: 60px;
+border: 1px solid #333;
+border-bottom: none;
+border-left: none;
+}
+.m-sbox3.focus {
+background: #999;
+}
+.m-main {
+border: 1px solid #333;
+width: 400px;
+}
+.m-bbox {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+height: 300px;
+}
+.m-bbox.hide {
+display: none;
+}

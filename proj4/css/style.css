@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2021-03-26 14:30:16
+ * @version $Id$
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all{
+    position: absolute;
+
+}
+
+.main{
+
+}
+
+.m-example img {
+	height: 100vh;
+	background: no-repeat url('e03-2.jpg');
+	background-size: 100%;
+	opacity: 0;  
+	position: fixed;
+	top: 0;
+}
+
+.number{
+	padding-left: 88px;
+	padding-top: 28px;
+	font-size: 24px;
+	font-family: tahoma;
+	color: #ff451b;
+	font-weight: bolder;
+	word-spacing: 91px;
+}
+
+.cata{
+	padding-top: 1.5px;
+	padding-left: 64.5px;
+	font-size: 20px;
+	font-weight: 400;
+	word-spacing: 48.7px;
+	font-family: Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC,Microsoft YaHei;
+
+}
+
+.banner{
+	width: 354px;
+	height: 35px;
+	margin: 26px 10px;
+	padding-top: 8px;
+  	padding-right: 0.25em;
+	padding-left: 144px;
+	font-size: 20px;
+	font-family: Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC,Microsoft YaHei;
+	letter-spacing: 0.7px;
+	color: #ff4821;
+	word-spacing: 45px;
+	border-style: solid;
+	border-width: 0px; 
+	background-color: #ffe5de;
+}
+
+.left-triangle {
+    width: 0;
+    height: 0;
+    padding-top: 0px;
+    padding-left: 20px;
+    border: 5px solid transparent;
+    border-left: 10px solid #ff4821;
+}
+
+.menu{
+	padding-left: 51px;
+	padding-top: 3px;
+	font-size: 20px;
+	font-family: Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC,Microsoft YaHei;
+	font-weight: 500;
+	word-spacing: 48.5px;
+}
+
+.ledge{
+	border-style: solid;
+	color: #f84d22;
+	width: 51px;
+	margin: 4px 0px 0px 232px;
+
+}
+.ad1{
+	padding-top: 25px;
+  	padding-right: 0.25em;
+  	padding-bottom: 2px;
+  	padding-left: 33px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC,Microsoft YaHei;
+	letter-spacing: 0.5px;
+	word-spacing: 50px;
+	color: #ff4821;
+}
+
+.ad2{
+	padding-top: 15px;
+  	padding-right: 0.25em;
+  	padding-bottom: 2px;
+  	padding-left: 32px;
+	font-size: 20px;
+	font-weight: 400;	
+	font-family: Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC,Microsoft YaHei;
+	letter-spacing: 0.7px;
+	word-spacing: 75px;
+}
+
+.nextpart{
+    position: absolute;
+    width: 450px;
+    height: 320px;
+    margin: 30px 0 0 12px;
+	font-family: Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC,Microsoft YaHei;    
+}
+
+.box1 {
+    position: absolute;
+    width: 120px;
+    margin: 0 0 0 0;
+    background-color: white;
+    border-style: solid;
+    border-color: #ff4821 #ff4821 #ffffff #ff4821;
+}
+
+.word6 {
+    margin: 0 0 0 27px;
+    font-size: 18px;
+}
+
+.box2 {
+    margin: 0 0 0 126px;
+    position: absolute;
+    width: 125px;
+    background-color: white;
+    border-style: solid;
+    border-color: #f2f2f2 #f2f2f2 #ff4821 #f2f2f2;
+    border-left: none;
+}
+
+.word7 {
+    margin: 0 0 0 35px;
+    font-size: 18px;
+    color: black;
+}
+
+.box3 {
+    margin: 4px 0 0px 252px;
+    position: absolute;
+    width: 126px;
+    background-color: white;
+    border-style: solid;
+    border-color: #f2f2f2 #f2f2f2 #ff4821 #f2f2f2;
+}
+
+.box4 {
+    margin: 4px 0 0 380px;
+    position: absolute;
+    width: 122px;
+    background-color: white;
+    border-style: solid;
+    border-color: #f2f2f2 #f2f2f2 #ff4821 #f2f2f2;
+}
+
+.box5 {
+    margin: 110px 0 0 0;
+    position: absolute;
+    width: 500px;
+    height: 293px;
+    background-color: white;
+    border-style: solid;
+    border-color: #ffffff #ff4821 #ff4821 #ff4821;
+}
+
+.word8 {
+    margin: 25px 0 0 35px;
+    color: #686868;
+    font-size: 18px;
+    word-spacing: 30px;
+}
+
+.box6 {
+    position: absolute;
+    margin: 12.5px 0 0 20px;
+    width: 280px;
+    border: solid #cccccc;
+}
+
+.word9 {
+    color: #6c6c6c;
+    font-size: 18px;
+    margin: 8px;
+}
+
+.word10{
+	font-size: 18px;
+	margin: 18px 0 8px 7px;
+}
+.box7 {
+    position: absolute;
+    margin: 47px 0 0 20px;
+    width: 280px;
+    border: solid #cccccc;
+    border-top: none;
+}
+
+.word11 {
+    color: #6c6c6c;
+    margin: 110px 0 0 25px;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+
+.box8 {
+    position: absolute;
+    margin: 10px 0px 0px 20px;
+    background-color: orangered;
+    width: 100px;
+    border-radius: 4px;
+}
+
+.word12 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 8px 5px 6px 12px;
+}

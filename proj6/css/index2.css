@@ -1,0 +1,70 @@
+body{
+	background-color: #99bd90;
+}
+.f-body{
+    background-color: #ffffeb;
+    height: 370px;
+    width: 390px;
+    border:1px solid;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: flex-end;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: bold;
+}
+.f-main{
+    background-color: #ffe6f4;
+    height: 96px;
+    width: 370px;
+    border:1px solid;
+    flex-direction: column;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    padding:10px;
+}
+.box1{
+    height: 20px;
+    width: 370px;
+    background-color: white;
+    border:1px solid;
+    margin-bottom: 12px;
+}
+.box2{
+    height: 30px;
+    width: 370px;
+    background-color: white;
+    border:1px solid;
+}
+.title{
+    margin-left: 8px;
+	font-size: 12px;
+}
+.information{
+	margin-left:8px;
+	font-size:12px
+    color:red;
+}
+.money{
+    margin-left:8px;
+    font-size:10px;
+    color:red;
+}
+.price{
+	margin-left:0px;
+	font-size:18px;
+    color:red;
+}
+.ori-price{
+	margin-left:5px;
+	font-size:12px;
+	text-decoration: line-through;
+	font-weight: normal;
+}
+.selled{
+	margin-left:120px;
+	font-size:12px;
+	font-weight: normal;
+}

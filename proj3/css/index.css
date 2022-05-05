@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2021-03-25 00:52:12
+ * @version $Id$
+ */
+
+ul>li{
+    line-height: 30px;
+    font-size: 20px;
+}
+

@@ -1,0 +1,46 @@
+body{
+padding: 20px;
+height: 200px;
+}
+.g-box {
+position: absolute;
+width: 800px;
+height: 800px;
+}
+.m-list {
+border: 1px solid #333;
+padding: 20px 15px 15px 20px;
+width: 300px;
+margin: 20px;
+}
+.m-box {
+display: inline-block;
+text-align: center;
+line-height: 50px;
+border: 1px solid #333;
+background: #999;
+height: 50px;
+width: 50px;
+margin-bottom: 10px;
+}
+.u-box {
+position: absolute;
+top: 40px;
+left: 120px;
+border: 1px solid #333;
+height: 120px;
+width: 120px;
+padding-top: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #fff;
+}
+.u-box .m-box {
+width: 100px;
+height: 100px;
+line-height: 100px;
+}
+.hide {
+display: none;
+}

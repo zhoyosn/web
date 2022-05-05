@@ -1,0 +1,43 @@
+body{
+  padding: 50px;
+  font-weight: bold;
+}
+.g-box {
+border: 1px solid #333;
+width: 380px;
+height: 500px;
+padding: 20px;
+position: relative;
+}
+.m-content {
+display: flex;
+border: 1px solid #333;
+margin-top: 10px;
+}
+.m-num {
+border-right: 1px solid #333;
+text-align: center;
+width: 10%;
+line-height: 35px;
+}
+.m-detal {
+width: 70%;
+}
+.m-del {
+border-left: 1px solid #333;
+text-align: center;
+width: 20%;
+line-height: 35px;
+}
+.m-button {
+height: 35px;
+width: 95px;
+border: 1px solid #333;
+background: #339966;
+color: #fff;
+text-align: center;
+line-height: 35px;
+position: absolute;
+bottom: 20px;
+right: 10px;
+}
